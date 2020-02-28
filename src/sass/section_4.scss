@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.html {
+.s4_wrapper {
   background: rgb(63, 94, 251);
   background: linear-gradient(90deg, rgba(63, 94, 251, 0.758140756302521) 0%, rgba(147, 83, 183, 0.7161239495798319) 47%, rgba(252, 70, 107, 0.7357317927170868) 100%);
 }
@@ -181,7 +181,7 @@
 }
 
 
-@media (width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 708px;
   }
@@ -197,7 +197,7 @@
   }
 }
 
-@media (width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 1145px;
   }

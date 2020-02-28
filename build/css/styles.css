@@ -693,8 +693,31 @@ ul {
   margin: 0 auto;
 }
 
+.section3_wrapper {
+  background: #3f5efb;
+  background: -webkit-gradient(linear, left top, right top, color-stop(47%, rgba(147, 83, 183, 0.716124)), color-stop(100%, rgba(252, 70, 107, 0.735732)), color-stop(0%, rgba(63, 94, 251, 0.758141)));
+  background: linear-gradient(90deg, rgba(147, 83, 183, 0.716124) 47%, rgba(252, 70, 107, 0.735732) 100%, rgba(63, 94, 251, 0.758141) 0%);
+}
+
+.section-3 {
+  padding: 100px 0;
+}
+
+.section-3,
+.s3_block-1,
+.s3_block-1 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
 .section-3_title {
-  padding-top: 60px;
+  display: block;
+  margin: 20px auto;
   font-size: 18pt;
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -703,51 +726,12 @@ ul {
 }
 
 .section-3_text {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
   font-size: 16pt;
   color: white;
-  padding-top: 30px;
-  width: 260px;
-  height: 150px;
   text-align: center;
-  padding-left: 20px;
-}
-
-.AppleIcon {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  text-align: center;
-  -webkit-box-align: center;
-  align-items: center;
-  border-style: none;
-  box-sizing: inherit;
-  width: 30px;
-  height: 30px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.SamsungIcon {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  text-align: center;
-  -webkit-box-align: center;
-  align-items: center;
-  border-style: none;
-  box-sizing: inherit;
-  width: 30px;
-  height: 30px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.section-3_video {
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 25px;
-  width: 285px;
-  height: 217px;
 }
 
 .support {
@@ -757,16 +741,8 @@ ul {
   -webkit-box-direction: normal;
   flex-direction: row;
   justify-content: space-around;
-  align-content: left;
   width: 230px;
-  margin: 0 auto;
-}
-
-.video_section-3 {
-  padding-right: 20px;
-  padding-bottom: 25px;
-  width: 285px;
-  height: 217px;
+  margin: 10px auto;
 }
 
 .circle {
@@ -785,12 +761,19 @@ ul {
   align-self: center;
 }
 
+.video_section-3 {
+  display: block;
+  width: 285px;
+  height: 217px;
+  margin: 20px auto;
+}
+
 .container {
   width: 292px;
   margin: 0 auto;
 }
 
-.html {
+.s4_wrapper {
   background: #3f5efb;
   background: -webkit-gradient(linear, left top, right top, from(rgba(63, 94, 251, 0.758141)), color-stop(47%, rgba(147, 83, 183, 0.716124)), to(rgba(252, 70, 107, 0.735732)));
   background: linear-gradient(90deg, rgba(63, 94, 251, 0.758141) 0%, rgba(147, 83, 183, 0.716124) 47%, rgba(252, 70, 107, 0.735732) 100%);
@@ -1322,202 +1305,34 @@ br {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-direction: row;
-    padding-left: 40px;
+    justify-content: space-around;
+  }
+
+  .s3_block-1,
+  .s3_block-2 {
+    width: 350px;
+  }
+
+  .video_section-3 {
+    width: 330px;
+    height: 250px;
   }
 
   .container {
-    width: 770px;
+    width: 708px;
   }
 
-  .section-3_title {
-    padding-top: 60px;
-    font-size: 18pt;
-    padding-left: 30px;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
+  .team__description {
+    width: 600px;
   }
 
-  .section-3_text {
-    font-size: 16pt;
-    color: white;
-    margin-top: 5px;
-    width: 533px;
-    height: 94;
-    margin-left: 90px;
-    text-align: center;
-  }
-
-  .AppleIcon {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    text-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    border-style: none;
-    box-sizing: inherit;
-    width: 30px;
-    height: 30px;
-    padding: 20px;
-    margin: 20px;
-  }
-
-  .SamsungIcon {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    text-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    border-style: none;
-    box-sizing: inherit;
-    width: 30px;
-    height: 30px;
-    padding: 20px;
-    margin: 20px;
-  }
-
-  .section-3_video {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 25px;
-  }
-
-  .support {
-    display: -webkit-box;
-    display: flex;
+  .team__list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: left;
-    width: 230px;
-    margin: 0 auto;
-  }
-
-  .video_section-3 {
-    margin: 20px;
-    padding-bottom: 25px;
-    margin-top: 20%;
-    margin-left: 55%;
-    width: 496px;
-    height: 306px;
-  }
-
-  .circle {
-    align-self: center;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 58%;
-    background: darkblue;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-  }
-
-  .ico {
-    align-self: center;
-  }
-
-  .section-3_wrapper {
-    background: #31d4e7;
-  }
-
-  .section-3_title {
-    padding-top: 60px;
-    font-size: 18pt;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
-  }
-
-  .section-3_text {
-    font-size: 16pt;
-    color: white;
-    padding-top: 30px;
-    width: 260px;
-    height: 150px;
-    text-align: center;
-    padding-left: 20px;
-  }
-
-  .AppleIcon {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    text-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    border-style: none;
-    box-sizing: inherit;
-    width: 30px;
-    height: 30px;
-    padding: 20px;
-    margin: 20px;
-  }
-
-  .SamsungIcon {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    text-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    border-style: none;
-    box-sizing: inherit;
-    width: 30px;
-    height: 30px;
-    padding: 20px;
-    margin: 20px;
-  }
-
-  .section-3_video {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 25px;
-    width: 285px;
-    height: 217px;
-  }
-
-  .support {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: left;
-    width: 260px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-  }
-
-  .video_section-3 {
-    padding-right: 20px;
-    padding-bottom: 25px;
-    width: 285px;
-    height: 217px;
-  }
-
-  .circle {
-    align-self: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 58%;
-    background: darkblue;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-  }
-
-  .ico {
-    align-self: center;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 600px;
   }
 
   .container {
@@ -1585,6 +1400,44 @@ br {
 }
 
 @media (min-width: 1200px) {
+  .section-3_title {
+    font-size: 32pt;
+    margin: 0 auto;
+  }
+
+  .section-3_text {
+    font-size: 18pt;
+    margin: 50px auto;
+    width: 500px;
+  }
+
+  .s3_block-1,
+  .s3_block-2 {
+    width: 550px;
+  }
+
+  .video_section-3 {
+    width: 530px;
+    height: 360px;
+  }
+
+  .container {
+    width: 1145px;
+  }
+
+  .team__description {
+    width: 900px;
+  }
+
+  .team__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 900px;
+  }
+
   .container {
     width: 1145px;
   }
@@ -1617,47 +1470,5 @@ br {
   textarea[type='search'] {
     width: 515px;
     height: 250px;
-  }
-}
-
-@media (width: 1200px) {
-  .container {
-    width: 1145px;
-  }
-
-  .container {
-    width: 1145px;
-  }
-
-  .team__description {
-    width: 900px;
-  }
-
-  .team__list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    width: 900px;
-  }
-}
-
-@media (width: 768px) {
-  .container {
-    width: 708px;
-  }
-
-  .team__description {
-    width: 600px;
-  }
-
-  .team__list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    width: 600px;
   }
 }
