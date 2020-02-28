@@ -114,12 +114,20 @@
     width: 708px;
   }
 
+  .s5_item p {
+    width: 500px;
+  }
+
   // ТУТ ПРОПИСЫВАЕТ СТИЛИ ПОД TABLET
 }
 
 @media (min-width: 1199px) {
   .container {
     width: 1120px;
+  }
+
+  .s5_item p {
+    width: 700px;
   }
 
   // ТУТ ПРОПИСЫВАЕТ СТИЛИ ПОД DESKTOP
