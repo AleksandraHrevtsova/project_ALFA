@@ -1,8 +1,3 @@
-.container {
-  width: 292px;
-  margin: 100px auto;
-}
-
 .section-2 {
   display: flex;
   flex-flow: column;
@@ -46,6 +41,11 @@
   justify-content: center;
 }
 
+.s2_item {
+  margin-right: 28px;
+
+}
+
 .s2_list li:last-child {
   display: none;
 }
@@ -61,7 +61,6 @@
 .item_text {
   display: flex;
   flex-flow: column;
-  margin-left: 28px;
 }
 
 .s2_list li h3 {

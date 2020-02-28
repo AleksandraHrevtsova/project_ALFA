@@ -1,8 +1,3 @@
-.container {
-  width: 292px;
-  margin: 0 auto;
-}
-
 .section5 {
   display: flex;
   flex-flow: column;
@@ -110,10 +105,6 @@
 // ТУТ ПРОПИСЫВАЕТ СТИЛИ ПОД MOBILE
 
 @media (min-width: 768px) {
-  .container {
-    width: 708px;
-  }
-
   .s5_item p {
     width: 500px;
   }
@@ -122,10 +113,6 @@
 }
 
 @media (min-width: 1199px) {
-  .container {
-    width: 1120px;
-  }
-
   .s5_item p {
     width: 700px;
   }

@@ -1,8 +1,3 @@
-.container {
-  width: 292px;
-  margin: 0 auto;
-}
-
 .s6_wrapper {
   background: black;
 }
@@ -99,10 +94,6 @@ textarea[type='search'] {
 }
 
 @media (min-width: 768px) {
-  .container {
-    width: 708px;
-  }
-
   .section_6-text::before {
     left: -42%;
   }
@@ -130,10 +121,6 @@ textarea[type='search'] {
 }
 
 @media (min-width: 1200px) {
-  .container {
-    width: 1145px;
-  }
-
   .s6_form-wrapper {
     display: flex;
     flex-flow: row-reverse;
